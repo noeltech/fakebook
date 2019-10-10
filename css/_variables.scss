@@ -1,0 +1,69 @@
+$main-content-width: 1012px;
+$left-column-width: 180px;
+$breakpoint-large: 1240px;
+$gutter: 12px;
+
+// colors
+$background-color: #e9ebee;
+$-c-primary-300: #3578e5;
+$-c-primary-500: #4267b2;
+$-c-primary-550: #385898;
+$-c-primary-600: #29487d;
+
+$-c-secondary-400: #f5f6f7;
+$-c-secondary-500: #e9ebee;
+$-c-secondary-600: #dddfe2;
+
+$-c-nav-text: #1d2129;
+
+$-c-text-black-300: #616770;
+$-c-text-black-350: #606770;
+$-c-text-black-400: #4b4f56;
+$-c-text-black-500: #1d2129;
+
+$-c-border-gray: #e6e4e4;
+$-c-comment-content-bg: #f2f3f5;
+
+$-c-comment-text: #1c1e21;
+.grey-mode-link {
+  color: $-c-text-black-350;
+}
+// fonts
+@mixin fontSmall() {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+@mixin fontNavHead() {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.82em;
+  font-weight: 600;
+  color: #616770;
+}
+
+// fs : font-size
+.fs-small {
+  font-size: 11px;
+}
+// for font-size 12 px use the "body's font-size"
+.fs-medium {
+  font-size: 13px;
+}
+
+.fs-large {
+  font-size: 14px;
+  line-height: 1.38;
+}
+
+// font-weight
+.fw-bold {
+  font-weight: 600;
+}
+
+.--c-linkButton-grey {
+  color: #4b4f56;
+}
+
+.icon-label-distance {
+  margin-right: 4px;
+}

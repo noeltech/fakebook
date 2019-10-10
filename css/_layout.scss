@@ -1,0 +1,53 @@
+//  Displaying Messenger feature
+// when browser width = 1200px+
+.main-content {
+  @media screen and (min-width: $breakpoint-large) {
+    display: flex;
+  }
+}
+
+.main-boundary {
+  position: relative;
+  top: 10px;
+  width: $main-content-width;
+  margin: 0px auto;
+}
+
+.main-column {
+  position: relative;
+  top: 50;
+}
+
+.left-column {
+  position: fixed;
+  top: 60;
+  width: $left-column-width;
+  height: 300px;
+  // background-color: #8b9dc3;
+  /* display: inline-block; */
+}
+
+.main-column {
+  /* display: inline-block; */
+  width: 790px;
+  height: 1000px;
+  margin-left: ($left-column-width + $gutter);
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-column {
+  flex: 0 0 500px;
+  height: 500px;
+}
+
+.right-column {
+  flex: 0 0 284px;
+  height: 300px;
+  background-color: #8b9dc3;
+}
+
+.messenger-column {
+  width: 200px;
+  background-color: #8b9dc3;
+}

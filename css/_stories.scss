@@ -1,0 +1,69 @@
+.card__stories {
+  margin-bottom: 8px;
+  cursor: pointer;
+
+  //   &:hover .card__stories--underline:hover {
+  //     color: white;
+  //     text-decoration-line: underline;
+  //   }
+}
+
+.stories__header {
+  margin-bottom: 10px;
+}
+.card__stories--underline:hover .stories__accountLink {
+  //   color: white;
+  text-decoration-line: underline;
+}
+
+.stories__createIcon {
+  background-color: $-c-secondary-400;
+  border: solid 1px $-c-secondary-600;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  justify-content: center;
+}
+
+.margin-left-m {
+  margin-left: 8px;
+}
+.margin-top-sm {
+  margin-top: 6px;
+}
+.stories {
+  padding: 10px;
+}
+
+.stories__icon {
+  background-color: transparent;
+  border: solid 2px $-c-primary-300;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  justify-content: center;
+  padding: 2px;
+}
+
+.stories__accountImage {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  vertical-align: middle;
+  border: 0px;
+}
+
+.c-text-gray-500 {
+  color: #8d949e;
+}
+
+.stories__seeMore {
+  margin-top: -4px;
+}
+
+.link--underline:hover {
+  text-decoration-line: underline;
+}
